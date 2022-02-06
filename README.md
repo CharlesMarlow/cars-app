@@ -1,6 +1,6 @@
 # Cars-app home assignment
 
-This app is build with React and node.js to handle a car selection process. 
+This app is built with React and node.js to handle a car selection process. 
 
 # Main issues
 

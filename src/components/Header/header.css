@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    background: linear-gradient(#39DB80, #eee9ec);
+    -moz-box-shadow: inset 0 0 10px #ffe9e9;
+    -webkit-box-shadow: inset 0 0 10px #ffe9e9;
+    box-shadow: inset 0 0 10px #ffe9e9;
+    padding: 0 10px;
+    align-items: center;
+    height: 80px;
+}
+
+.header-text {
+    margin: 0 auto;
+    font-size: 32px;
+}
+
+.logo {
+    height: 40px;
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-text {
+        font-size: 20px;
+    }
+}
